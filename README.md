@@ -66,7 +66,7 @@ csi-s3-pvc   Bound     pvc-c5d4634f-8507-11e8-9f33-0e243832354b   5Gi        RWO
 3. Create a test pod which mounts your volume:
 
 ```bash
-kubectl create -f poc.yaml
+kubectl create -f pod.yaml
 ```
 
 If the pod can start, everything should be working.
